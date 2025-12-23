@@ -10,7 +10,6 @@ This project implements a **console-based Connect 4 game** with **multiple bot d
 3. **Medium-level bot**
 4. **Hard-level bot** – near-perfect AI using **Minimax, iterative deepening, transposition tables, and opening tables**.
 
----
 
 ## Game Description
 
@@ -23,7 +22,6 @@ Features implemented:
 * Bot difficulty selection: **Easy, Medium, Hard**.
 * Console-based interaction.
 
----
 
 ## Code Structure
 
