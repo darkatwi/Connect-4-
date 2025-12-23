@@ -38,7 +38,6 @@ Features implemented:
 | `transposition.c` / `transposition.h` | Transposition table management            |
 | `Makefile`                            | Build automation                          |
 
----
 
 ## Sprint-wise Implementation
 
@@ -80,7 +79,6 @@ Features implemented:
 * Against humans: essentially unbeatable.
 * Against other bots: likely to force draw or win.
 
----
 
 ## Testing Strategy
 
@@ -101,7 +99,6 @@ Features implemented:
 * **GDB**: Step through minimax and threat detection.
 * **Valgrind**: Ensured no memory leaks.
 
----
 
 ## Improvements Across Sprints
 
@@ -112,14 +109,12 @@ Features implemented:
 | 3      | Medium bot: blocks opponent, prioritizes center, tactical moves                                                 |
 | 4      | Hard bot: minimax, alpha-beta, iterative deepening, transposition table, opening table, threat-aware evaluation |
 
----
 
 ## Tournament Readiness
 
 * Hard bot is fast, tactical, and **practically unbeatable**.
 * Opening table ensures strong early-game strategy.
 
----
 
 ## Limitations
 
@@ -128,7 +123,6 @@ Features implemented:
 * Console interface limits visualization.
 * Not multi-threaded.
 
----
 
 ## Alpine Setup
 
@@ -140,7 +134,6 @@ git clone <repo-url>
 
 Set `tty1` for auto-update if needed.
 
----
 
 ## Network Programming (Player vs Player)
 
@@ -151,7 +144,6 @@ Set `tty1` for auto-update if needed.
 
 Typical functions: `socket()`, `bind()`, `listen()`, `accept()`, `connect()`, `send()`, `recv()`.
 
----
 
 ## Conclusion
 
@@ -165,7 +157,6 @@ Typical functions: `socket()`, `bind()`, `listen()`, `accept()`, `connect()`, `s
 * Multithreading.
 * Full-width endgame solver.
 
----
 
 ## References
 
